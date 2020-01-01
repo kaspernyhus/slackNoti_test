@@ -25,7 +25,7 @@ SECRET_KEY = 'q5ilc0&87#g_njs39jhyi^x99icj1&7(yb#5aa#p59-_(&ps7g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['devgladibad.pythonanywhere.com']
+ALLOWED_HOSTS = ['devgladibad.pythonanywhere.com','localhost']
 
 
 # Application definition

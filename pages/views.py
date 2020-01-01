@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect
 import slack
 
-slack_token = "xoxp-621793017634-632710302996-646595057600-866d33ceb6c9c599545edb3052df360c"
+slack_token = ""
 
 
 def index(request):
