@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <style>
+      .button {
+        background: #fa1616;
+        padding: 5px 10px;
+        border-radius: 8px;
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        font-family: Georgia, serif;
+        text-decoration: none;
+        vertical-align: middle;
+        }
+     .button:hover {
+        background: #ff8f8f;
+        color: rgb(0, 0, 0);
+        }
+     .button:active {
+        background: #e4a1a1;
+        }
+    </style>
+    
+    <title>Slack Notifier Test</title>
+</head>
+<body>
+    <div class="center"> <h1>Slack Notifier Test</h1> </div>
+
+    <br>
+
+    <a class="button" href="{% url 'send_notification' %}">Notify Me!</a>
+
+</body>
+</html>
